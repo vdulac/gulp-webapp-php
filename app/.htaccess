@@ -1,0 +1,7 @@
+Options -Indexes
+Options +FollowSymlinks
+
+RewriteEngine On
+RewriteRule ^me/$ http://www.funland.com/ [R=302]
+RewriteRule ^about/$ about.php [L]
+RewriteRule ^contact/$ includes/contact.php [L]
