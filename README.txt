@@ -1,4 +1,5 @@
 This version works with XAMPP -> PHP, MySQL, htaccess!
+
 No need to move any folder/file.
 No need to edit any file, except gulpfile.babel.js
 Based off this: http://stackoverflow.com/questions/33728041/browser-sync-php-and-htaccess
@@ -14,6 +15,9 @@ gulp.task('serve-php', ['styles', 'fonts'], () => {
   browserSync({
     notify: false,
     port: 9000,
+    ui: {
+        port: 9001
+    },
     server: {
       baseDir: ['.tmp', 'app'],
       routes: {
@@ -54,7 +58,9 @@ Run 'gulp serve-php:dist'
 
 ##### Pour que BrowserSync fonctionne, il faut que la page ait un <body> et qu'il n'y ait pas de content avant le <!DOCTYPE html><html ...>
 ##### Browsersync autoreload ne fonctionne pas pour gulp serve-php:dist
+
 -------------------------------
+
 Quand j'ajoute un package avec:
 bower install font-awesome -S
 runner ensuite gulp wiredep
