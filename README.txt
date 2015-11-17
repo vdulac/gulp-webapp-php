@@ -1,3 +1,8 @@
+Download, then:
+$ npm clear cache
+$ npm install
+$ bower install
+
 This version works with XAMPP -> PHP, MySQL, htaccess!
 
 No need to move any folder/file.
