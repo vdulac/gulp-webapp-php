@@ -1,4 +1,5 @@
 Download, then:
+Disable Anti-Virus!
 $ npm cache clear
 $ npm install
 $ bower install
