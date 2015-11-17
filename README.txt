@@ -1,5 +1,5 @@
 Download, then:
-$ npm clear cache
+$ npm cache clear
 $ npm install
 $ bower install
 
