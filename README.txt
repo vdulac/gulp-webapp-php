@@ -4,6 +4,11 @@ $ npm cache clear
 $ npm install
 $ bower install
 
+
+BrowserSync Error: File to import not found or unreadable.
+Sublime Text 3 > Preferences > Settings - User > "atomic_save": true
+
+
 This version works with XAMPP -> PHP, MySQL, htaccess!
 
 No need to move any folder/file.
